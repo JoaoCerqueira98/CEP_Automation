@@ -1,0 +1,60 @@
+Status: OK
+Time Taken: 1087
+Size: 423
+Timestamp: Wed Sep 30 15:11:15 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09541520</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Keep-Alive : timeout=5, max=100
+Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : Keep-Alive
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 18:31:15 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 18:31:15 GMT; Path=/
+#status# : HTTP/1.1 200 OK
+Content-Length : 285
+Date : Wed, 30 Sep 2020 18:11:14 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:consultaCEPResponse xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+         <return>
+            <bairro>Santa Paula</bairro>
+            <cep>09541520</cep>
+            <cidade>S?o Caetano do Sul</cidade>
+            <complemento2>- at? 589/590</complemento2>
+            <end>Avenida Doutor Augusto de Toledo</end>
+            <uf>SP</uf>
+         </return>
+      </ns2:consultaCEPResponse>
+   </soap:Body>
+</soap:Envelope>

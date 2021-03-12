@@ -1,0 +1,4728 @@
+2020-09-30 10:44:10,597 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1014
+Size: 359
+Timestamp: Wed Sep 30 10:44:09 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_df4922b7-c073-4863-ae6c-f71d91dad15b
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_df4922b7-c073-4863-ae6c-f71d91dad15b; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 14:04:09 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:08 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2020-09-30 10:44:44,801 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 982
+Size: 359
+Timestamp: Wed Sep 30 10:44:43 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_cbd44a0b-a556-406a-bdc5-538d68d96660
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_cbd44a0b-a556-406a-bdc5-538d68d96660; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:04:43 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Wed, 30 Sep 2020 13:44:42 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2020-09-30 11:20:00,440 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 963
+Size: 369
+Timestamp: Wed Sep 30 11:19:59 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+X-OPNET-Transaction-Trace : a2_95021bd5-488a-4354-a21b-6f7ac51bab17
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_95021bd5-488a-4354-a21b-6f7ac51bab17; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Wed, 30-Sep-2020 14:39:58 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 14:19:57 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2020-09-30 13:33:31,244 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1275
+Size: 369
+Timestamp: Wed Sep 30 13:33:29 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=BIABKIMA; Expires=Wed, 30-Sep-2020 16:53:28 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:29 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2020-09-30 13:33:55,137 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1189
+Size: 369
+Timestamp: Wed Sep 30 13:33:53 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 324
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>09070020</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Wed, 30-Sep-2020 16:53:52 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Wed, 30 Sep 2020 16:33:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2020-10-01 15:44:13,602 ERROR [errorlog] java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Not SOAP Fault in [TestCase-FormValidation] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ContainsReturn in [TestCase-FormValidation] failed;
+[Missing token [<return>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress1 in [TestCase-FormValidation] failed;
+[Missing token [<end>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnAddress2 in [TestCase-FormValidation] failed;
+[Missing token [<bairro>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnState in [TestCase-FormValidation] failed;
+[Missing token [<uf>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+ReturnCity in [TestCase-FormValidation] failed;
+[Missing token [<cidade>] in Response]
+Status: FAILED
+Time Taken: 1381
+Size: 359
+Timestamp: Thu Oct 01 15:44:11 BRT 2020
+TestStep: TestCase-FormValidation
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+[ContainsReturn] Missing token [<return>] in Response
+[ReturnAddress1] Missing token [<end>] in Response
+[ReturnAddress2] Missing token [<bairro>] in Response
+[ReturnState] Missing token [<uf>] in Response
+[ReturnCity] Missing token [<cidade>] in Response
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 316
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep/>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.10 (Debian)
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=PNCCAIAK; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Thu, 01-Oct-2020 19:04:11 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 221
+Date : Thu, 01 Oct 2020 18:44:12 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP INVÁLIDO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP INVÁLIDO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)

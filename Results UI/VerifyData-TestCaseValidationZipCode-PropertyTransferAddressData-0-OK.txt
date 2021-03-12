@@ -1,0 +1,40 @@
+Status: OK
+Time Taken: 220
+Size: 0
+Timestamp: Wed Sep 30 15:11:17 BRT 2020
+TestStep: PropertyTransfer-AddressData
+
+----------------- Messages ------------------------------
+Performed transfer [TransferAddress1]
+Performed transfer [TransferAddress2]
+Performed transfer [TransferState]
+Performed transfer [TransferCity]
+----------------------------------------------------
+TransferAddress1 transferred [[Avenida Doutor Augusto de Toledo]] from [TestCase-FormValidation.Response] to [Property-AdressData.Address1]
+------------ source path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://cliente.bean.master.sigep.bsb.correios.com.br/';
+//return/end
+------------ target path -------------
+
+TransferAddress2 transferred [[Santa Paula]] from [TestCase-FormValidation.Response] to [Property-AdressData.Address2]
+------------ source path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://cliente.bean.master.sigep.bsb.correios.com.br/';
+//return/bairro
+------------ target path -------------
+
+TransferState transferred [[SP]] from [TestCase-FormValidation.Response] to [Property-AdressData.State]
+------------ source path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://cliente.bean.master.sigep.bsb.correios.com.br/';
+//return/uf
+------------ target path -------------
+
+TransferCity transferred [[S?o Caetano do Sul]] from [TestCase-FormValidation.Response] to [Property-AdressData.City]
+------------ source path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://cliente.bean.master.sigep.bsb.correios.com.br/';
+//return/cidade
+------------ target path -------------
+

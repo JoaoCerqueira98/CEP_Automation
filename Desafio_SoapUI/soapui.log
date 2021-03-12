@@ -1,0 +1,33 @@
+2020-10-01 15:51:05,260 INFO  [DefaultSoapUICore] Creating new settings at [/var/root/soapui-settings.xml]
+2020-10-01 15:51:06,440 INFO  [PluginManager] 0 plugins loaded in 3 ms
+2020-10-01 15:51:06,440 INFO  [DefaultSoapUICore] All plugins loaded
+2020-10-01 15:51:07,362 INFO  [WsdlProject] Loaded project from [file:/Users/joaocerqueira/Downloads/DesafioSoapUI-soapui-project.xml]
+2020-10-01 15:51:07,366 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [DesafioSoapUI]
+2020-10-01 15:51:07,367 INFO  [SoapUITestCaseRunner] Running TestCase [TestCase-ValidationZipCode]
+2020-10-01 15:51:07,373 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase-ValidationZipCode]
+2020-10-01 15:51:07,377 INFO  [SoapUITestCaseRunner] running step [TestCase-FormValidation]
+2020-10-01 15:51:07,986 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-10-01 15:51:08,005 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-10-01 15:51:08,006 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-10-01 15:51:08,008 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-10-01 15:51:08,009 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-10-01 15:51:08,010 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-10-01 15:51:08,013 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-10-01 15:51:08,014 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-10-01 15:51:08,015 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-10-01 15:51:08,020 INFO  [SchemaUtils] Added default schema from file:/Applications/SoapUI-5.5.0.app/Contents/java/app/bin/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-10-01 15:51:08,025 INFO  [SchemaUtils] Loading schema types from [https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl]
+2020-10-01 15:51:08,025 INFO  [SchemaUtils] Getting schema https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [ContainsReturn] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [ReturnAddress1] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [ReturnAddress2] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [ReturnState] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [ReturnCity] has status VALID
+2020-10-01 15:51:08,272 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2020-10-01 15:51:08,275 INFO  [SoapUITestCaseRunner] running step [Delay]
+2020-10-01 15:51:08,681 INFO  [SoapUITestCaseRunner] running step [PropertyTransfer-AddressData]
+2020-10-01 15:51:09,065 INFO  [SoapUITestCaseRunner] running step [Property-AdressData]
+2020-10-01 15:51:09,069 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase-ValidationZipCode], time taken: 1677ms, status: FINISHED
+2020-10-01 15:51:09,070 INFO  [SoapUITestCaseRunner] TestCase [TestCase-ValidationZipCode] finished with status [FINISHED] in 1677ms
